@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'inter';
+	font-display: swap;
+	/* TODO add font in asset, the urls here are not adapted for this project, it is not an exemple but just not to forget the format. */
+	/* src: url('public/fonts/AdobeHandwritingErnie/AdobeHandwriting-Ernie.woff2') format('woff2'),
+		url('public/fonts/AdobeHandwritingErnie/AdobeHandwriting-Ernie.woff') format('woff'),
+		url('public/fonts/AdobeHandwritingErnie/AdobeHandwriting-Ernie.ttf') format('truetype'); */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@layer base {
+	main {
+		@apply flex flex-col min-h-screen;
+	}
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
